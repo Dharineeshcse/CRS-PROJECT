@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/19873.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center center;
+}
+.tit{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 10%;
+   background-color: antiquewhite;
+
+} 
+.main{
+    position: relative;
+    width:100vw;
+    height: 80px;
+    background-color: rebeccapurple;
+}
+a{
+    text-decoration: none;
+}
+.nava{
+    display:flex;
+    /* justify-content: space-between; */
+    font-family: 'Proza Libre', sans-serif;
+}
+li{
+padding: 10px;
+font-size: large;
+}
